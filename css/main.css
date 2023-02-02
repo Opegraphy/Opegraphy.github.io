@@ -858,8 +858,29 @@ strong.general-info {
 /* /Services */
 
 /* Clients */
+
+.logo_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.logo_container div {
+  width: 50%;
+}
+
+.client_block2{
+  margin: auto;
+}
+
+
+.client_block2 img {
+  width: 250px;
+}
+
 .client_block {
-  text-align: center;
+  margin: auto;
   padding: 5px 0;
   opacity: 1;
   -webkit-transition-duration: 0.2s;
@@ -872,7 +893,6 @@ strong.general-info {
 
 .client_block img {
   width: 250px;
-  height: 80px;
 }
 /* /Clients */
 
@@ -881,6 +901,7 @@ strong.general-info {
   text-align: center;
   padding: 5px 0;
   opacity: 1;
+  width: 100%;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
